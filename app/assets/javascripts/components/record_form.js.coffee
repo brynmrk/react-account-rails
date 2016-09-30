@@ -27,6 +27,7 @@
 					name: 'date'
 					value: @state.date
 					onChange: @handleChange
+				' '
 				React.DOM.input
 					type: 'text'
 					className: 'form-control'
@@ -34,6 +35,7 @@
 					name: 'title'
 					value: @state.title
 					onChange: @handleChange
+				' '
 				React.DOM.input
 					type: 'text'
 					className: 'form-control'
@@ -41,6 +43,7 @@
 					name: 'amount'
 					value: @state.amount
 					onChange: @handleChange
+				' '
 				React.DOM.button
 					type: 'submit'
 					className: 'btn btn-primary'

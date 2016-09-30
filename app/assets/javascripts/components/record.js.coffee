@@ -37,6 +37,7 @@
 					className: 'btn btn-default'
 					onClick: @handleToggle
 					'Edit'
+				' '
 				React.DOM.a
 					className: 'btn btn-danger'
 					onClick: @handleDelete
@@ -66,6 +67,7 @@
 					className: 'btn btn-default'
 					onClick: @handleEdit
 					'Update'
+				' '
 				React.DOM.a
 					className: 'btn btn-danger'
 					onClick: @handleToggle
