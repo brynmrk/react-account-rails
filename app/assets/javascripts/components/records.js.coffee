@@ -28,7 +28,7 @@
 		@replaceState records: record
 	render: ->
 		React.DOM.div
-			className: 'records'
+			className: 'records container'
 			React.DOM.h2
 				className: 'title'
 				'Records'
