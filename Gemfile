@@ -11,7 +11,7 @@ gem 'react-rails', '~> 2.4.7'
 gem 'jquery-rails', '~> 4.3.3'
 gem 'turbolinks', '~> 5.1.1'
 gem 'jbuilder', '~> 2.7.0'
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
